@@ -6,7 +6,7 @@
 //If these conditions are not met return -1
 
 function bouncingBall(h, b, win){
-  if(h<=0 || b<=0 || b>=1 || win>h) return -1
+  if(h<=0 || b<=0 || b>=1 || win>=h) return -1
   
   let views = 1;
   while((h*=bounce)>win){
