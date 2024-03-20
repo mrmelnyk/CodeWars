@@ -9,7 +9,7 @@ function consonantVal(s){
   let arr = s.replace(/[aeiou]/g, ' ').split(' ');
   
   //replaces all of the letters with their numeric values.
-  let nums = arr.map(a => a.split('').map(b => alpha.indexOf(b));
+  let nums = arr.map(a => a.split('').map(b => alpha.indexOf(b)));
   
   //remove any empty arrays that were create by vowel substrings with a length greater than 1.
   nums = nums.filter(c => c.length);
