@@ -21,9 +21,7 @@ Even "1 bear" -> "1 glass of water"; or "1 chainsaw and 2 pools" -> "3 glasses o
 function hydrate(s) {
     let str = s.replace(/\D+/ig, '');
     let arr = str.split('').reduce((a,b) => +a + +b);
-    console.log(arr)
     return arr > 1 ? arr + ' glasses of water' : arr + ' glass of water';
   }
 
   console.log(hydrate('1 beer, 3 shots, 1 glass of scotch'))//should log '5 glasses of water'
-  
