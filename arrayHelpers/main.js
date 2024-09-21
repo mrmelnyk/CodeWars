@@ -11,11 +11,11 @@ Array.prototype.square = function() {
   }
   
   Array.prototype.average = function() {
-    return this.reduce((a,b) => a+b)/this.length;
+    return this.sum()/this.length;
   }
   
   Array.prototype.sum = function() {
-    return this.reduce((a,b) => a+b);
+    return this.reduce((a,b) => a+b,0);
   }
   
   Array.prototype.even = function() {
