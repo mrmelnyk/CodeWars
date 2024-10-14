@@ -19,7 +19,7 @@ class Cube {
     getSide() {
       return this.side; 
     }
-    setSide(n) {
-      this.side = Math.abs(n);
+    setSide(side = 0) {
+      this.side = Math.abs(side);
     }
   }
