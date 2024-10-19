@@ -17,3 +17,4 @@ function potatoes(p0, w0, p1) {
 }
 
 console.log(potatoes(82, 127, 80))//should log 114
+console.log(potatoes(99, 100, 98))//should log 50
