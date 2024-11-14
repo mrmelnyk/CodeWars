@@ -11,3 +11,4 @@ function detectPanagram(str){
 }
 
 console.log(detectPanagram('The quick fox jumps over the lazy brown dog'))//should log true
+console.log(detectPanagram('Hello World!'))//should log false
