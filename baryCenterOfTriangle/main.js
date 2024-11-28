@@ -15,3 +15,4 @@ function barTriang(p1, p2, p3){
 }
 
 console.log(barTriang([4, 6], [12, 4], [10, 10]))//should log [8.6667, 6.6667]
+//just need to change something to push to github
