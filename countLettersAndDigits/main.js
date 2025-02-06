@@ -14,3 +14,10 @@ function countLettersAndDigits(input) {
 
   console.log(countLettersAndDigits('hel2!?lo'))//should log 6
   
+
+
+  function adding(x){
+    return x.map(a => +a).reduce((b,c) => b+c);
+  }
+
+  console.log(adding([3, 4, '3', '5', 2, '3']))//should log 20
